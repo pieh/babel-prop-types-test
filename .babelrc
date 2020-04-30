@@ -1,0 +1,11 @@
+{
+  "plugins": [
+    "@babel/plugin-syntax-jsx",
+    [
+      "babel-plugin-transform-react-remove-prop-types",
+      {
+        "removeImport": true
+      }
+    ]
+  ]
+}
